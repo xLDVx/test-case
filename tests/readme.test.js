@@ -1,5 +1,6 @@
-const fs = require('fs');
-const path = require('path');
+import { describe, test, expect, beforeAll } from 'vitest';
+import fs from 'fs';
+import path from 'path';
 
 describe('README Documentation', () => {
   let readmeContent;
