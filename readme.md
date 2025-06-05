@@ -30,7 +30,10 @@ The Master Control Program (MCP) Integration Testing is a critical component of 
 Integration test results are automatically logged and can be reviewed in the system's test management dashboard.
 
 ### Limitations
-Some integration tests may require specific environmental setups or access to controlled resources.
+Some integration tests may require:
+- Specific environmental setups
+- Controlled resource access
+- Advanced configuration
 
 ## Additional Notes
 Continuous improvement of MCP integration testing is an ongoing process. Feedback and contributions are welcome.
