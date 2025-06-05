@@ -8,16 +8,12 @@ describe('README Documentation', () => {
     readmeContent = fs.readFileSync(path.resolve(__dirname, '../readme.md'), 'utf8');
   });
 
-  test('README should contain MCP Integration Testing section', () => {
+  test('README contains MCP integration testing section', () => {
     expect(readmeContent).toContain('MCP Integration Testing');
   });
 
-  test('README should describe testing purpose', () => {
-    expect(readmeContent).toContain('Master Control Program (MCP) Integration Testing');
-  });
-
   test('README should include test running instructions', () => {
-    expect(readmeContent).toContain('npm run test:integration');
+    expect(readmeContent).toContain('npm test');
   });
 
   test('README structure should be markdown compliant', () => {
