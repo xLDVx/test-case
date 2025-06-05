@@ -20,11 +20,27 @@ The Master Control Program (MCP) Integration Testing is a critical component of 
 - **Performance Integration Tests**
 - **Error Handling and Recovery Tests**
 
+### Test Coverage
+Integration tests cover critical paths, including:
+- Data flow between services
+- Authentication and authorization mechanisms
+- Complex transaction processing
+- Component interaction validation
+- System resilience under various conditions
+
+### Running Integration Tests
+To run MCP integration tests, use the following command:
+```bash
+npm run test:integration
+```
+
 ### Best Practices
 - Use mock services for external dependencies
 - Implement robust error tracking
 - Maintain detailed test logs
 - Regularly update test scenarios
+- Maintain test isolation
+- Use realistic test data
 
 ### Reporting
 Integration test results are automatically logged and can be reviewed in the system's test management dashboard.
@@ -35,5 +51,8 @@ Some integration tests may require:
 - Controlled resource access
 - Advanced configuration
 
-## Additional Notes
-Continuous improvement of MCP integration testing is an ongoing process. Feedback and contributions are welcome.
+## Contribution
+Contributions to our testing framework are welcome. Please review our contribution guidelines before submitting pull requests.
+
+### Additional Notes
+Continuous improvement of MCP integration testing is an ongoing process. Feedback and contributions are encouraged.
